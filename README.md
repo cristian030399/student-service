@@ -7,11 +7,11 @@ Es importante realizar el cambio de la conexión a la base de datos. El archivo 
 Este método registra un nuevo estudiante a la base de datos. La petición se ejecuta mediante un POST usando las url "http://localhost:8081/api/students" y enviando en el cuerpo un JSON con el siguiente formato:
 ```json
 {
-	"id": String,
-	"firstName": String,
-	"lastName": String,
-	"note": Numver,
-	"career": String
+	"id": "1037667018",
+	"firstName": "Cristian David",
+	"lastName": "Vargas Bermúdez",
+	"note": 4,
+	"career": "Ingeniería de sistemas"
 }
 ```
 ## findAll
